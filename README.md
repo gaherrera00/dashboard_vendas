@@ -22,6 +22,7 @@ Dashboard analítico desenvolvido em Python com Streamlit para visualização e 
 ### 🎓 Objetivo
 
 Este projeto foi desenvolvido como parte do aprendizado de análise de dados e visualização, demonstrando habilidades em:
+
 - Manipulação de dados com Pandas
 - Criação de dashboards interativos com Streamlit
 - Visualizações avançadas com Plotly
@@ -33,6 +34,7 @@ Este projeto foi desenvolvido como parte do aprendizado de análise de dados e v
 ## ✨ Funcionalidades
 
 ### 📊 Indicadores Principais (KPIs)
+
 - **Receita Total** com comparação período anterior
 - **Lucro Total** e margem de lucro média
 - **Ticket Médio** por pedido
@@ -40,11 +42,13 @@ Este projeto foi desenvolvido como parte do aprendizado de análise de dados e v
 - **Variação Percentual** entre períodos
 
 ### 🏆 Análises de Destaque
+
 - Produto mais lucrativo
 - Categoria com melhor desempenho
 - Estado com maior faturamento
 
 ### 📈 Visualizações Interativas
+
 1. **Receita por Categoria** - Gráfico de barras
 2. **Receita ao Longo do Tempo** - Série temporal
 3. **Lucro por Categoria** - Análise de rentabilidade
@@ -53,6 +57,7 @@ Este projeto foi desenvolvido como parte do aprendizado de análise de dados e v
 6. **Receita por Estado** - Análise geográfica
 
 ### 🔍 Filtros Avançados
+
 - **Categoria** - Seleção múltipla
 - **Produto** - Filtro dependente da categoria
 - **Estado** - Análise regional
@@ -60,6 +65,7 @@ Este projeto foi desenvolvido como parte do aprendizado de análise de dados e v
 - **Período** - Intervalo de datas customizável
 
 ### 📋 Recursos Adicionais
+
 - Visualização de dados brutos formatados
 - Download de dados filtrados em CSV
 - Contador de registros exibidos
@@ -70,30 +76,33 @@ Este projeto foi desenvolvido como parte do aprendizado de análise de dados e v
 
 ## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Versão | Uso |
-|------------|--------|-----|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | 3.8+ | Linguagem principal |
-| ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) | 1.28+ | Framework web |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) | 2.0+ | Manipulação de dados |
-| ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) | 5.17+ | Visualizações interativas |
+| Tecnologia                                                                                            | Versão | Uso                       |
+| ----------------------------------------------------------------------------------------------------- | ------ | ------------------------- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)          | 3.8+   | Linguagem principal       |
+| ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) | 1.28+  | Framework web             |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)          | 2.0+   | Manipulação de dados      |
+| ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)          | 5.17+  | Visualizações interativas |
 
 ---
 
 ## 📦 Instalação
 
 ### Pré-requisitos
+
 - Python 3.8 ou superior
 - pip (gerenciador de pacotes Python)
 
 ### Passo a Passo
 
 1. **Clone o repositório**
+
 ```bash
-git clone https://github.com/seu-usuario/dashboard-vendas-ecommerce.git
+git clone https://github.com/gaherrera00/dashboard_vendas.git
 cd dashboard-vendas-ecommerce
 ```
 
 2. **Crie um ambiente virtual (recomendado)**
+
 ```bash
 python -m venv venv
 
@@ -105,16 +114,19 @@ source venv/bin/activate
 ```
 
 3. **Instale as dependências**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. **Execute o dashboard**
+
 ```bash
 streamlit run app.py
 ```
 
 5. **Acesse no navegador**
+
 ```
 http://localhost:8501
 ```
@@ -142,39 +154,25 @@ dashboard-vendas-ecommerce/
     └── charts.py              # Criação de gráficos
 ```
 
----
-
-## 🎨 Capturas de Tela
-
-### Dashboard Principal
-![Dashboard Overview](https://via.placeholder.com/800x400/1f77b4/ffffff?text=Dashboard+Overview)
-
-### KPIs e Métricas
-![KPIs](https://via.placeholder.com/800x200/2ca02c/ffffff?text=KPIs+Principais)
-
-### Gráficos Interativos
-![Charts](https://via.placeholder.com/800x400/ff7f0e/ffffff?text=Visualizações+Interativas)
-
----
-
 ## 📊 Dataset
 
 O dataset utilizado contém informações de vendas de e-commerce com as seguintes colunas:
 
-| Coluna | Tipo | Descrição |
-|--------|------|-----------|
-| `data` | Date | Data da transação |
-| `pedido_id` | String | Identificador único do pedido |
-| `cliente_id` | String | Identificador do cliente |
-| `produto` | Category | Nome do produto |
-| `categoria` | Category | Categoria do produto |
-| `preco_unitario` | Float | Preço unitário do produto |
-| `quantidade` | Integer | Quantidade vendida |
-| `custo_unitario` | Float | Custo unitário do produto |
-| `forma_pagamento` | Category | Método de pagamento |
-| `estado` | Category | Estado da transação |
+| Coluna            | Tipo     | Descrição                     |
+| ----------------- | -------- | ----------------------------- |
+| `data`            | Date     | Data da transação             |
+| `pedido_id`       | String   | Identificador único do pedido |
+| `cliente_id`      | String   | Identificador do cliente      |
+| `produto`         | Category | Nome do produto               |
+| `categoria`       | Category | Categoria do produto          |
+| `preco_unitario`  | Float    | Preço unitário do produto     |
+| `quantidade`      | Integer  | Quantidade vendida            |
+| `custo_unitario`  | Float    | Custo unitário do produto     |
+| `forma_pagamento` | Category | Método de pagamento           |
+| `estado`          | Category | Estado da transação           |
 
 ### Colunas Calculadas
+
 - **receita**: `preco_unitario × quantidade`
 - **custo_total**: `custo_unitario × quantidade`
 - **lucro**: `receita - custo_total`
@@ -205,62 +203,10 @@ O sistema realiza validações automáticas para garantir a integridade dos dado
 - [ ] Sistema de alertas para métricas críticas
 - [ ] Análise de sazonalidade avançada
 
----
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Faça um Fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
-
-### 📋 Diretrizes de Contribuição
-- Siga o padrão PEP 8 para código Python
-- Adicione testes para novas funcionalidades
-- Atualize a documentação quando necessário
-- Mantenha os commits descritivos e organizados
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👤 Autor
 
-**Seu Nome**
+**Gabriel Herrera Demarchi**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [seu-perfil](https://linkedin.com/in/seu-peFrfil)
-- Email: seu.email@exemplo.com
-
----
-
-## 🙏 Agradecimentos
-
-- [Streamlit](https://streamlit.io/) - Framework web incrível
-- [Plotly](https://plotly.com/) - Visualizações interativas
-- [Pandas](https://pandas.pydata.org/) - Manipulação de dados
-- Comunidade Python por todo suporte
-
----
-
-## 📊 Status do Projeto
-
-![Status](https://img.shields.io/badge/Status-Concluído-success.svg)
-![Manutenção](https://img.shields.io/badge/Manutenção-Ativa-green.svg)
-
----
-
-<div align="center">
-
-**⭐ Se este projeto te ajudou, considere dar uma estrela!**
-
-Made with ❤️ and Python
-
-</div>
+- GitHub: [@seu-usuario](https://github.com/gaherrera00)
+- LinkedIn: [seu-perfil](https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/)
+- Email: gabriel.h.demarcji@gmail.com
