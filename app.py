@@ -43,7 +43,6 @@ df_completo, linhas_descartadas = carregar_dados()
 
 # Sidebar — filtros
 with st.sidebar:
-    st.header("Filtros")
     filtros = criar_filtros(df_completo)
 
 # Aplicação de filtros
