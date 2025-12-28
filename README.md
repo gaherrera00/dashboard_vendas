@@ -209,4 +209,4 @@ O sistema realiza validações automáticas para garantir a integridade dos dado
 
 - GitHub: [GitHub](https://github.com/gaherrera00)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/)
-- Email: gabriel.h.demarcji@gmail.com
+- Email: gabriel.h.demarchi@gmail.com
