@@ -207,6 +207,6 @@ O sistema realiza validações automáticas para garantir a integridade dos dado
 
 **Gabriel Herrera Demarchi**
 
-- GitHub: [@seu-usuario](https://github.com/gaherrera00)
-- LinkedIn: [seu-perfil](https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/)
+- GitHub: [GitHub](https://github.com/gaherrera00)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/)
 - Email: gabriel.h.demarcji@gmail.com
